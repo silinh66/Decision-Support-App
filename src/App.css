@@ -1,3 +1,19 @@
+@import '~antd/dist/antd.css';
+
+@font-face {
+  font-family: "SF Compact Rounded";
+  src: local("SF Compact Rounded"),
+   url("./asssets/Fonts/SF-Compact-Rounded-Semibold.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "SF Compact Rounded Normal";
+    src: local("SF Compact Rounded Normal"),
+     url("./asssets/Fonts/SF-Compact-Rounded-Regular.ttf") format("truetype");
+    font-weight: bold;
+    }
+  
 .App {
   text-align: center;
 }
@@ -5,6 +21,25 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
 }
 
 @media (prefers-reduced-motion: no-preference) {
