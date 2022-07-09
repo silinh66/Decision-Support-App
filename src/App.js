@@ -38,7 +38,7 @@ function App() {
 
 const styles = {
   container: {
-    height: "100vh",
+    height: "150vh",
     display: "flex",
     flexDirection: "column",
   },

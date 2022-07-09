@@ -82,6 +82,9 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    position: "sticky",
+    top: 0,
+    zIndex: 1,
   },
   contentComponent: {
     marginLeft: "24px",
